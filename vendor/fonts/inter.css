@@ -54,8 +54,8 @@
   font-style:  normal;
   font-weight: 400;
   font-display: swap;
-  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
-       url("Inter-Regular.woff?v=3.19") format("woff");
+  src: url("Inter-Regular.woff2") format("woff2"),
+       url("Inter-Regular.woff") format("woff");
 }
 @font-face {
   font-family: 'Inter';

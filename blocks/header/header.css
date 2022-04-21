@@ -1,3 +1,7 @@
-.heder{
-    
+.header{
+    min-height: 52px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
