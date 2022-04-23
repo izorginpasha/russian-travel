@@ -3,4 +3,5 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto auto;
     gap: 92px ;
+    box-sizing: border-box;
 }

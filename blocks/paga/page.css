@@ -1,10 +1,12 @@
 .page{
     padding: 28px 48px 24px 48px;
-    min-width: 1280px;
+    max-width: 1280px;
+    min-width: 320px;
     box-sizing: border-box;
     background-color: #2a2c2f;
     font-family: 'Inter', 'Arial', sans-serif ;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
     
 }
