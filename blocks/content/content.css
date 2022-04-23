@@ -1,5 +1,6 @@
 .content{
-    display: flex;
-    flex-direction: column;
-
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    gap: 92px ;
 }
