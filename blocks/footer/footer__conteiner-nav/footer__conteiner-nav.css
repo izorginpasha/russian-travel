@@ -1,0 +1,8 @@
+.footer__conteiner-nav{
+    display: flex;
+    width: 60%;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 18px;
+}

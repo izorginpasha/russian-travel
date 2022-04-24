@@ -1,13 +1,11 @@
-.place__paragraph{
+.cover__subtitle{
+    width: 360px;
     font-family:'Inter';
     font-style:normal;
     font-weight:400;
     font-size:18px;
-    line-height:163%;
+    line-height:22px;
+    text-align:center;
     color:#FFFFFF;
-    margin: 0px;
-    height: fit-content;
-    
-   
-    
+    margin: 0px auto;
 }
