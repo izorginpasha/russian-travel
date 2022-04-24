@@ -8,7 +8,11 @@
     opacity: 0.3;
     text-decoration: none;
     background-color: #2a2c2f;
+    -webkit-transition: opacity 1s ease;
+    -moz-transition: opacity 1s ease;
+    transition: opacity 1s ease;
 }
 .cover__overlay:hover{
+    transition: opacity 1s ease 0s;
     opacity: 0.8;
 }
