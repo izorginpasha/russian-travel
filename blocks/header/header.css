@@ -7,3 +7,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+@media screen and (max-width: 320px){
+    .header{
+        min-height: 42px;
+    }
+}

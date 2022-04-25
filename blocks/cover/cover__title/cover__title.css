@@ -10,3 +10,15 @@
     margin: 0px auto 32px auto;
    
 }
+@media screen and (max-width: 320px){
+    .cover__title{
+        width: 288px;
+        font-size:32px;
+        line-height:35px;
+        text-align:center;
+        color:#FFFFFF;
+        margin: 0px auto 16px auto;
+       
+    }
+    
+}

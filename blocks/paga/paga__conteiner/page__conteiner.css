@@ -13,3 +13,10 @@
     }
     
 }
+@media screen and (max-width: 320px){
+    .page__conteiner{
+        padding: 16px 16px 24px 16px;
+        
+    }
+    
+}

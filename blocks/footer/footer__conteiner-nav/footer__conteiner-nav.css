@@ -6,3 +6,14 @@
     padding: 0px;
     gap: 18px;
 }
+@media screen and (max-width: 320px){
+    .footer__conteiner-nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        gap: 32px;
+    }
+}
