@@ -11,8 +11,24 @@
     -webkit-transition: opacity 1s ease;
     -moz-transition: opacity 1s ease;
     transition: opacity 1s ease;
+    
+    
 }
 .cover__overlay:hover{
     transition: opacity 1s ease 0s;
     opacity: 0.8;
+}
+@media screen and (max-width: 1024px){
+    .cover__overlay{
+        width: 1024px;
+        
+    }
+    
+}
+@media screen and (max-width: 1024px){
+    .cover__overlay{
+        width: 768px;
+        
+    }
+    
 }

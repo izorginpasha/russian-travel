@@ -1,7 +1,13 @@
 .content{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto auto;
-    gap: 92px ;
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
     box-sizing: border-box;
+}
+@media screen and (max-width: 768px){
+    .content{
+        gap: 88px;
+        
+    }
+    
 }

@@ -2,3 +2,8 @@
     display: grid;
     gap: 26px;
 }
+@media screen and (max-width: 768px){
+    .place__conteiner{
+        gap: 25px;
+    }
+}
