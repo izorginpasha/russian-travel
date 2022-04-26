@@ -1,6 +1,37 @@
 .cover__conteiner{
-    display: grid;
-    align-content: center;
+    
+    top: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+
+}
+@media screen and (max-width: 1024px){
+    .cover__conteiner{
+        
+    top: 195px;
+        
+    }
+    
+}
+@media screen and (max-width: 758px){
+    .cover__conteiner{
+        
+    top: 115px;
+        
+    }
+    
+}
+@media screen and (max-width: 320px){
+    .cover__conteiner{
+        
+    top: 33px;
+        
+    }
+    
 }

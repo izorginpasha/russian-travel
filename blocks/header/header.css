@@ -4,11 +4,25 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    padding: 0;
     box-sizing: border-box;
+    max-width: 100%;
+    padding: 2.1875% 3.75% 4.375% 3.75%;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1024px){
+    .header{
+        padding: 2.734375% 4.6875% 4.6875% 4.6875%;
+    }
+}
+@media screen and (max-width: 768px){
+    .header{
+        padding: 3.64683% 3.125% 6.25% 3.125%;
+    }
 }
 @media screen and (max-width: 320px){
     .header{
+        padding: 5% 5% 15% 5%;
         min-height: 42px;
+        
     }
 }

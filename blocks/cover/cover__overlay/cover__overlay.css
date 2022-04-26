@@ -1,9 +1,6 @@
 .cover__overlay{
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width: calc(100% - 7.5%);
     height: 100%;
     opacity: 0.3;
     text-decoration: none;
@@ -20,21 +17,15 @@
 }
 @media screen and (max-width: 1024px){
     .cover__overlay{
-        width: 1024px;
+        width: 100%;
         
     }
     
 }
-@media screen and (max-width: 768px){
-    .cover__overlay{
-        width: 768px;
-        
-    }
-    
-}
+
 @media screen and (max-width: 320px){
     .cover__overlay{
-        width: 320px;
+        width: 100%;
         
     }
     

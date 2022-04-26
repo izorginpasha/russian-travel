@@ -1,12 +1,26 @@
 .footer{
+    min-height: 18px;
     position: relative;
-    height: 18px;
+    display: flex;
     box-sizing: border-box;
+    padding: 7.1875% 3.75% 1.875% 3.75%;
+    justify-content: space-between;
 }
+@media screen and (max-width: 1024px){
+    .footer{
+        padding: 8.984375% 4.6875% 2.34375% 4.6875%;
+    }
+}
+@media screen and (max-width: 768px){
+    .footer{
+        padding: 11.1959% 3.125% 3.125% 3.125%;
+    }
+}
+
 @media screen and (max-width: 320px){
     .footer{
-        position: relative;
-        height: auto;
-        box-sizing: border-box;
+        flex-direction: column;
+        gap: 48px;
+        padding: 20% 36.875% 7.5% 5%;
     }
 }
