@@ -2,7 +2,6 @@
     min-height: 52px;
     position: relative;
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
     box-sizing: border-box;
     max-width: 100%;
