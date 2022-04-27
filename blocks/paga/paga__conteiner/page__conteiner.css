@@ -4,5 +4,6 @@
     margin: 0px auto;
     box-sizing: border-box;
     position: relative;
+    overflow: hidden;
     
 }
