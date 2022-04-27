@@ -5,6 +5,7 @@
     margin: 0px;
     padding: 0px;
     gap: 18px;
+    flex-wrap: wrap;
 }
 @media screen and (max-width: 320px){
     .footer__conteiner-nav{
