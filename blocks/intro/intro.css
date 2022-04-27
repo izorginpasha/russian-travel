@@ -1,25 +1,20 @@
 .intro{
-    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
-    padding: 0px 34.53125% 0px 11.5625%;
+    padding: 0px 442px 0px 148px;
 }
 @media screen and (max-width: 1024px){
     .intro{
-        padding: 0px 27.9296875% 0px 4.6875%;
+        padding: 0px 286px 0px 48px;
     }
 }
 @media screen and (max-width: 768px){
     .intro{
-        padding: 0px 3.125% 0px 3.125%;
+        padding: 0px 24px;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 320px){
     .intro{
-        padding: 0px 3.125% 0px 3.125%;
-    }
-}
-@media screen and (max-width: 768px){
-    .intro{
-        padding: 0px 5%;
+        padding: 0px 16px;
     }
 }
