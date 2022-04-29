@@ -2,11 +2,10 @@
     max-width: 100%;
     min-height: 18px;
     position: relative;
-    display: flex;
     box-sizing: border-box;
     padding: 92px 48px 24px 48px;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    position: relative;
+    
     
     
 }
@@ -18,8 +17,6 @@
 
 @media screen and (max-width: 320px){
     .footer{
-        flex-direction: column;
-        gap: 48px;
         padding: 64px 118px 24px 16px;
     }
 }

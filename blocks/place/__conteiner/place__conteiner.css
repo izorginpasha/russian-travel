@@ -8,3 +8,9 @@
         gap: 25px;
     }
 }
+@media screen and (max-width: 385px){
+    .place__conteiner{
+        padding: 0px 16px;
+        
+}
+}
