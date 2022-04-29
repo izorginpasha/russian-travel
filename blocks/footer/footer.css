@@ -4,10 +4,6 @@
     position: relative;
     box-sizing: border-box;
     padding: 92px 48px 24px 48px;
-    position: relative;
-    
-    
-    
 }
 @media screen and (max-width: 768px){
     .footer{
