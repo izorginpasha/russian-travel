@@ -4,24 +4,21 @@
     min-height: 740px;
     background-image: url(../../images/__background.png);
     background-position: center;
-    background-size: calc(100% - 96px) 740px;
+    background-size: calc(100% - 96px);
     background-repeat: no-repeat;
-    box-sizing: border-box;
+    background-clip: padding-box;
     padding: 0px 48px;
-    position: relative;
-
-    
+    position: relative;  
 }
 @media screen and (max-width: 1024px){
     .cover{
         padding: 0px;
-        background-size: 100% 640px;
         min-height: 640px;
+        background-size: cover;
     }
 }
 @media screen and (max-width: 768px){
     .cover{
-        background-size: 100% 480px;
         min-height: 480px;
     }
 }

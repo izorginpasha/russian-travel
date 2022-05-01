@@ -1,4 +1,4 @@
-.footer__conteiner-nav{
+.footer__items{
     display: flex;
     list-style-type: none;
     margin: 0px;
@@ -7,7 +7,7 @@
     flex-wrap: wrap;
 }
 @media screen and (max-width: 320px){
-    .footer__conteiner-nav{
+    .footer__items{
         display: flex;
         flex-direction: column;
         width: 100%;
